@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div id="container">
+    <header>
+      <div>Create your account</div>
+    </header>
+
+    <main>
+      <div class="form-account_txt">First Name</div>
+      <form action="" name="f1">
+        <input type="text" name="firstName" id="information" placeholder="Type here...">
+      </form>
+
+      <div class="form-account_txt">Second Name</div>
+      <form action="" name="f2">
+        <input type="text" name="secondName" id="information" placeholder="Type here...">
+      </form>
+      
+      <div class="form-account_txt">Email adress</div>
+      <form action="" name="f3">
+        <input type="email" name="email" id="information" placeholder="Enter email">
+      </form>
+      
+      <form action="" name="f4" id="radio">
+        <input type="radio" id="man" name="gender">
+        <label for="male">Male</label><br>
+        <input type="radio" id="woman" name="gender">
+        <label for="female">Female</label><br>
+      </form>
+      
+      <div class="form-account_txt">Position</div>
+      <form action="" name="f5">
+        <select name="selection" id="select">
+          <option value="" disabled selected>Choose...</option>
+          <option value="">Frontend</option>
+          <option value="">Backend</option>
+          <option value="">QC/QA</option>
+        </select>
+      </form>
+
+      <form action="" name="f6">
+        <input type="checkbox"  name="" id="myCheck" >I agree all statements in Terms of service<Br>
+      </form>
+
+      <form action="" name="f7" onclick="getImg()"  id="button">
+        <input type="button" name="signUp" onclick="checkInput()" value="Sign Up" id="btn">
+      </form>
+        
+      
+    </main>
+  </div>
+
+  <div id="container-second">
+    <main class="main">
+      <div class="main-up">
+        <div class="main-img">
+          <img class="boy" src="./img/boy.png" alt="">
+          <img class="girl" src="./img/girl.png" alt="">
+        </div>
+      </div>
+
+      <div class="information">
+
+        <div class="name"></div>
+        <div class="email"></div>
+        <div class="position"></div>
+
+        <form action="" name="" id="button-second">
+          <input type="button" onclick="getFirstBlock()" value="Sign Out" id="btn-second">
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <img src="/img/linkedin-3-32.png" alt="">
+      <img src="/img/instagram-32.png" alt="">
+      <img src="/img/facebook-3-32.png" alt="">
+    </footer>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+</html>

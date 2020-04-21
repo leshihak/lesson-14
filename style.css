@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#container, #container-second  {
+  width: 40%;
+  height: 650px;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: 2px solid rgb(131, 131, 131);
+  margin-top: 35px;
+  background-color: rgb(255, 255, 255);
+}
+
+header {
+  height: 13%;
+  background-color: rgb(58, 119, 99);
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  border-radius: 20px 20px 0 0;
+}
+
+main {
+  padding: 5px 30px;
+  height: 78%;
+  font-size: 17px;
+}
+
+.form-account_txt {
+  margin: 10px 0;
+}
+
+#information, #select {
+  height: 40px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgb(172, 172, 172);
+  padding: 10px;
+}
+
+#man, #woman, #select, #myCheck {
+  margin: 10px 20px 10px 0;
+}
+
+#man, #woman, #myCheck {
+  height: 15px;
+  width: 15px;
+}
+
+#btn {
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+  background-color: rgb(58, 119, 99);
+  border: 2px solid rgb(77, 151, 126);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* container-second */
+
+#container-second {
+  font-size: 25px;
+  width: 30%;
+  height: 450px;
+  display: none;
+}
+
+.main {
+  height: 90%;
+}
+
+
+.main-up {
+  height: 30%;
+  background-color: rgb(58, 119, 99);
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.main-img {
+  height: 130px;
+  width: 130px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  top: 50px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boy, .girl {
+  height: 100px;
+  width: 100px;
+  top: 50px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 230px;
+  margin-top: 55px;
+}
+
+.name, .email, .position {
+  height: 30px;
+  text-align: center;
+}
+
+#button-second {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+#btn-second {
+  height: 40px;
+  width: 30%;
+  background-color: rgb(58, 119, 99);
+  border: 2px solid rgb(77, 151, 126);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  height: 10%;
+  background-color: rgb(58, 119, 99);
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+img {
+  height: 32px;
+  width: 32px;
+}
